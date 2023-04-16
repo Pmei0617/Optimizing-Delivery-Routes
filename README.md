@@ -9,3 +9,9 @@ In calculating total cost, we took fixed toll rates by truck class, toll rate pe
 We set up a net flow constraint for each state as well as a check-up facility constraint to depict a business scenario where there should be equipment check-up for trucks that are in long distance operation. 
 
 Lastly, we used Excel Solver to solve for the cheapest route for each truck class subject to constraints. The model was also deployed in python using the GLPK package in Pyomo. In visualizing the result, we used Plotly library to generate a map that shows the optimal route based on the truck class selected.  
+
+### Steps to access the project
+1. Open the Excel file to see how the model is set up using Solver
+2. Open the Google Colab note book and upload the Excel file to see how the model is set up using Pyomo
+3. There is a png showing the map output for truck class 5
+4. Feel free to check out the poster which I submitted in one of our MSBA poster competition
